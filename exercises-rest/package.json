@@ -1,0 +1,28 @@
+{
+  "name": "exercises-rest",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "node server.js",
+    "format": "prettier --write . ",
+    "lint": "eslint . ",
+    "lint:fix": "eslint . --fix "
+  },
+  "author": "Tyson Bryant",
+  "license": "GPL-3.0-or-later",
+  "devDependencies": {
+    "@eslint/js": "^9.35.0",
+    "eslint": "^9.35.0",
+    "eslint-config-prettier": "^10.1.8",
+    "eslint-plugin-prettier": "^5.5.4",
+    "globals": "^16.4.0",
+    "prettier": "^3.6.2",
+    "supertest": "^7.1.4"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}

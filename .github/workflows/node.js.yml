@@ -24,6 +24,7 @@ jobs:
         cache: 'npm'
         cache-dependency-path: './exercises-rest/package-lock.json'
     - run: npm ci
+      working-directory: './exercises-rest'
     - name: Prettier
       run: npm run format
     - name: ESLint
